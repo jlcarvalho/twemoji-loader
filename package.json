@@ -1,6 +1,15 @@
 {
   "name": "twemoji-loader",
-  "version": "0.0.1",
+  "version": "0.0.2",
+  "description": "Emoji to Twemoji loader for Webpack",
+  "keywords": [
+    "webpack",
+    "loader",
+    "webpack-loader",
+    "replace",
+    "emoji",
+    "twemoji"
+  ],
   "main": "src/index.js",
   "scripts": {
     "test": "jest"
@@ -15,5 +24,16 @@
   "dependencies": {
     "loader-utils": "^1.2.3",
     "twemoji": "^12.1.3"
-  }
+  },
+  "peerDependencies": {
+    "webpack": "1 || 2 || 3 || 4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jlcarvalho/twemoji-loader.git"
+  },
+  "homepage": "https://github.com/jlcarvalho/twemoji-loader",
+  "author": "Jean Lucas de Carvalho <jean@futuring.com.br>",
+  "license": "MIT",
+  "private": false
 }
