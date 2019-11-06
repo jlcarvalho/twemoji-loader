@@ -7,7 +7,7 @@ A **webpack loader** that replaces standard Unicode emojis with Twemoji on `img`
 Install:
 
 ```
-npm install --save-dev wemoji-loader
+npm install --save-dev twemoji-loader
 ```
 
 Add the loader and plugin to your webpack config:
