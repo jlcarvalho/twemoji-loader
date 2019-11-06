@@ -4,6 +4,12 @@ A **webpack loader** that replaces standard Unicode emojis with Twemoji on `img`
 
 ## Basic Usage
 
+Install:
+
+```
+npm install --save-dev wemoji-loader
+```
+
 Add the loader and plugin to your webpack config:
 
 ```js
