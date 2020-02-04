@@ -29,7 +29,6 @@ module.exports = (fixture, options = {}) => {
     compiler.run((err, stats) => {
       if (err) reject(err);
       if (stats.hasErrors()) reject(new Error(stats.toJson().errors));
-      console.log(123, stats.hasErrors());
 
       resolve(stats);
     });
