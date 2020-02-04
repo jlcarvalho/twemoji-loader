@@ -1,6 +1,7 @@
 const path = require("path");
+
 const webpack = require("webpack");
-const memoryfs = require("memory-fs");
+const MemoryFs = require("memory-fs");
 
 module.exports = (fixture, options = {}) => {
   const compiler = webpack({
@@ -23,7 +24,7 @@ module.exports = (fixture, options = {}) => {
     }
   });
 
-  compiler.outputFileSystem = new memoryfs();
+  compiler.outputFileSystem = new MemoryFs();
 
   return new Promise((resolve, reject) => {
     compiler.run((err, stats) => {
