@@ -1,6 +1,6 @@
 {
   "name": "twemoji-loader",
-  "version": "0.0.2",
+  "version": "0.0.4",
   "description": "Emoji to Twemoji loader for Webpack",
   "keywords": [
     "webpack",
